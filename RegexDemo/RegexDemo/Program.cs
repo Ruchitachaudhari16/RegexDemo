@@ -12,6 +12,7 @@ namespace RegexDemo
         {
             Pattern pattern = new Pattern();
             pattern.MyRegex();
+            pattern.CheckName("Ruchita");
             Console.ReadLine();
         }
     }
